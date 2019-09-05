@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Exo Chatbot</title>
+  <link rel="stylesheet" href="chatbot.css">
+  <script src="chatbot.js"></script>
+  </head>
+  <body>
+  <h1> CHAT BOT : </h1>
+  <section>
+    <div id ="output"></div>
+      <form id ="container" onsubmit="questionReponse()">
+          <input type="text" id="input" onsubmit="questionReponse()" autocomplete="off" value=""/>
+          <input type="button" onclick="questionReponse()" value="ok"/>
+      </form>
+  </section>
+  </body>
+</html>
